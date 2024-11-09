@@ -281,7 +281,8 @@ padding: 120px 0;
     flex-direction: column;
     gap: 8px;
     padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc; 
+    border-top: none; 
 }
 
 .portfolio-subject {
@@ -299,7 +300,6 @@ padding: 120px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    border-top: none; 
 }
 
 .portfolio-item {
