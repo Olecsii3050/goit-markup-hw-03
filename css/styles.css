@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+img {
+    display: block;
+}
+
 
 
 /* #endregion */
@@ -25,6 +29,7 @@ a {
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
+
 
 .header-container {
     display: flex;
@@ -115,11 +120,11 @@ a {
 .image {
     background: #2e2f42;
     width: auto;
-    padding: 188px;
+    padding: 188px 0;
 }
 
 .image-title {
-    
+    max-width: 496;
     width: 496px;
     margin: auto;
     margin-bottom: 48px;
@@ -131,12 +136,8 @@ a {
     color: #fff;
 }
 
-.image-wrapper {
-    display: flex; 
-    justify-content: center;
-}
 .image-button {
-   
+    display: block;
     background: #4d5ae5;
     font-weight: 500;
     font-size: 16px;
@@ -147,7 +148,10 @@ a {
     border-radius: 4px;
     padding: 16px 32px;
     min-width: 169px;
-    min-height: 56px;
+    height: 56px;
+    border: none;
+    background-color: #4d5ae5;
+    margin: 0 auto;
 }
 
 .image-button:hover,
@@ -160,7 +164,7 @@ a {
 /* #region feature */
 
 .feature {
-padding: 120px;
+padding: 120px 0;
 }
 
 .feature-subject {}
@@ -196,11 +200,11 @@ padding: 120px;
 .team {
     background: #f4f4fd;
     text-transform: capitalize;
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .team-wrapper {
-    padding: 32px 16px;
+    padding: 32px 0;
     display: flex;
         align-items: center;
         justify-content: center;
@@ -220,7 +224,7 @@ padding: 120px;
 
 .team-list {
     display: flex;
-    gap: 24px;
+    gap: 24p;
 }
 
 .team-item {
@@ -249,12 +253,13 @@ padding: 120px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: center;
 }
 /*#endregion */
 
 /* #region portfolio */
 .portfolio {
-    padding: 120px;
+    padding: 120px 0;
 }
 
 .portfolio-wrapper {
@@ -275,12 +280,14 @@ padding: 120px;
         text-align: center;
         text-transform: capitalize;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-item {}
@@ -304,13 +311,10 @@ padding: 120px;
 
 /* #region footer */
 .page-footer {
-    background: #2e2f42;
+    background: #2e2f42; 
+    padding: 100px 0; 
 }
 
-.footer-container {
-padding: 100px 0;
-
-}
 .logo {
     font-family: "Raleway", sans-serif;
     line-height: 1.17
@@ -322,8 +326,8 @@ padding: 100px 0;
 }
 
 .footer-logo {
-    display: block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text {
