@@ -299,11 +299,10 @@ padding: 120px 0;
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-    
+    border-top: none; 
 }
 
 .portfolio-item {
-    border-top: none;
 }
 
 .portfolio-subtitle {
